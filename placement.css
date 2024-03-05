@@ -1,9 +1,77 @@
-body {
+ body {
+    display: flex;
+     flex-direction: column; 
+    height: 100vh;
+    justify-content:first baseline;
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+    background-image:url('image/placement bgc.png') ;  
+    background-size:auto;
+} 
+/* body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-}
+} */
 
 footer {
     margin-top: auto;
 }
+
+  /* body {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+      background: url('background-image.jpg') no-repeat center center fixed;  
+    background-size: auto;
+  }   */
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    /* flex-direction:row;  */
+    height: 100vh;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  #box1 {
+    background-color: red;
+  }
+  
+  #box2 {
+    background-color: blue;
+  }
+  
+  #box3 {
+    background-color: green;
+  }
+  
+  #box4 {
+    background-color: yellow;
+  }
+  
+  #box5 {
+    background-color: orange;
+  }
+  
+  #box6 {
+    background-color: purple;
+  }
+  
+  #box7 {
+    background-color: cyan;
+  }
+  
+  #box8 {
+    background-color: magenta;
+  }
