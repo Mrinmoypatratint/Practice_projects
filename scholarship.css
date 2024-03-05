@@ -1,7 +1,8 @@
 body {
+    background-image: url("./image/didi.jpeg");
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100px;
 }
 
 footer {
